@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 
 
-function AddToDo({ addToDo }) {
+function AddToDo({ addToDo  }) {
   
   const [inputValue, setInputValue] = useState('')
   
@@ -14,7 +14,7 @@ function AddToDo({ addToDo }) {
     if (inputValue){
       const prototype = {
         'id': uuidv4(),
-        'value': inputValue
+        'value': inputValue      
       }
       addToDo(prototype)
       setInputValue('')
@@ -35,6 +35,7 @@ function AddToDo({ addToDo }) {
 
 AddToDo.propTypes = {
   addToDo: PropTypes.func.isRequired,
+  state: PropTypes.func.isRequired
 };
 
 

@@ -3,7 +3,6 @@ import "../stylesheets/toDo.css";
 import { useState } from "react";
 import PropTypes from 'prop-types';
 
-
 function ToDo({ value, remove, id }) {
   const [completed, setCompleted] = useState(false);
 
