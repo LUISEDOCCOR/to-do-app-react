@@ -1,0 +1,23 @@
+.add-to-do-form{
+    display: flex;
+} 
+.input-add{
+    font-size: 1.2em;
+    padding-left: 10px;
+    width: calc(70% - 10px);
+    border: none !important;
+}
+.input-btn-add{
+    width: calc(100% - 70%);
+    font-size: 2em;
+    font-weight: 700;
+    background-color: #1dd2af;
+    border: none;
+    transition: .3s;
+}
+.input-btn-add:hover{
+    opacity: .7;
+}
+.input-add, .input-btn-add{
+    height: 50px;
+}

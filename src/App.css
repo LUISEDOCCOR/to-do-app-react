@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+}
+.container{
+  width: 30vw;
+}
+.contendor-title{
+  background-color: #de3f53;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+@media screen and (max-width: 740px) {
+    .container{
+        width: 90vw;
+    }
+}  
